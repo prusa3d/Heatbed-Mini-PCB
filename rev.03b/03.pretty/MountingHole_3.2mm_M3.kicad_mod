@@ -1,0 +1,12 @@
+(module Mounting_Holes:MountingHole_3.2mm_M3 locked (layer F.Cu) (tedit 58CBDC2C)
+  (descr "Mounting Hole 3.2mm, no annular, M3")
+  (tags "mounting hole 3.2mm no annular m3")
+  (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 3 0) (layer F.CrtYd) (width 0.1))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
+)
